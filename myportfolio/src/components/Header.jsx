@@ -1,15 +1,12 @@
-import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
 
-
-function Header(props) {
-    return (
-
-        <header className="header bg-info">
-            <a href="https://github.com/rosiedeng1"> <h1 className="text-white">Rosie Deng </h1></a>
-        </header>
-
-    );
+const Header = () => {
+  return (
+    <header>
+      <h1>Portfolio: Rosie Deng </h1>
+      <img src="my-logo.png" alt="My Logo" />
+    </header>
+  );
 }
 
 export default Header;
