@@ -2,7 +2,7 @@
 export default function AboutMe() {
     return (
         <p>
-        Hi my name is Rosie 
+        Hi my name is Rosie :)
         </p>
     );
   }

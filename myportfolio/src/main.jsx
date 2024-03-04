@@ -24,7 +24,19 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <AboutMe />,
-  }
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
+  },
+  {
+    path: '/portfolio',
+    element: <Portfolio />,
+  },
+  {
+    path: '/resume',
+    element: <Resume />,
+  },
 ]);
 
 // Render the RouterProvider component
