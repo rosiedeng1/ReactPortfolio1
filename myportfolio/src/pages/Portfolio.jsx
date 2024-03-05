@@ -1,31 +1,18 @@
-
-// https://github.com/rosiedeng1/TravelAssistanceApplication.git
-// https://rosiedeng1.github.io/TravelAssistanceApplication/
-
-// https://github.com/rosiedeng1/Weather-Dashboard-Hw-.git
-// https://rosiedeng1.github.io/Weather-Dashboard-Hw-/
-
-// https://github.com/rosiedeng1/MVC-Tech-Blog-Site.git
-
-// https://github.com/rosiedeng1/ExpressJSNoteTaker.git
-
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import { portfolio } from "./pages/data.js";
+import { portfolio } from "./data.js";
 
 export default function Portfolio() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+           Hello :)
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -33,7 +20,7 @@ export default function Portfolio() {
             <a
               href={portfolio.link}
               key={portfolio.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-50 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -41,13 +28,15 @@ export default function Portfolio() {
                   src={portfolio.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-sm text-green-400 mb-1">
                     {portfolio.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h3 className="title-font text-sm font-sm text-white mb-3">
                     {portfolio.title}
-                  </h1>
-                  <p className="leading-relaxed">{portfolio.description}</p>
+                  </h3>
+                  <h4 className="title-font text-sm font-sm text-white mb-3">
+                    {portfolio.githubrepo}
+                  </h4>
                 </div>
               </div>
             </a>

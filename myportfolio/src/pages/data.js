@@ -1,34 +1,46 @@
+
+
+// https://github.com/rosiedeng1/ExpressJSNoteTaker.git
+
 export const portfolio = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+      title: "Travel Assistance Application",
+      subtitle: "Javascript",
+      image: "./assets/Travel.png",
+      link: "https://rosiedeng1.github.io/TravelAssistanceApplication/",
+      githubrepo: "https://github.com/rosiedeng1/TravelAssistanceApplication.git"
+
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+      title: "Weather API",
+      subtitle: "Javascript, API",
+      image: "./assets/WeatherAPI.png",
+      link: "https://rosiedeng1.github.io/Weather-Dashboard-Hw-/",
+      githubrepo: "https://github.com/rosiedeng1/Weather-Dashboard-Hw-.git"
+
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+      title: "MVC Tech Blog",
+      subtitle: "Javascript",
+      image: "./assets/Travel.png",
+      link: "Open in Local Host",
+      githubrepo: "https://github.com/rosiedeng1/MVC-Tech-Blog-Site.git"
+
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+      title: "Travel Assistance Application",
+      subtitle: "Javascript",
+      image: "./assets/Travel.png",
+      link: "https://rosiedeng1.github.io/TravelAssistanceApplication/",
+      githubrepo: "https://github.com/rosiedeng1/TravelAssistanceApplication.git"
+
+    },
+    {
+      title: "Travel Assistance Application",
+      subtitle: "Javascript",
+      image: "./assets/Travel.png",
+      link: "https://rosiedeng1.github.io/TravelAssistanceApplication/",
+      githubrepo: "https://github.com/rosiedeng1/TravelAssistanceApplication.git"
+
     },
   ];
